@@ -1,0 +1,220 @@
+:root{
+    --fundo-escuro: #1B2226;
+    --fundo-card: #1d2226;
+    --fundo-card-ativo: hsla(0, 0%, 100%, 0.12);
+    --texto-principal: hsla(0, 0%, 100%, 0.9);
+    --texto-secundario: hsla(0, 0%, 100%, 0.6);
+    --texto-escuro: hsla(0, 0%, 0%, 0.75);
+    --input: #38434F;
+    --primario: #70b5f9;
+    --positivo: #3ec786;
+  }
+
+  body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: var(--fundo-escuro);
+  }
+
+/*Imagem de fundo e do usuario*/
+.imagem__fundo{
+    background-image: url("../img/cover-image.jpg");
+    border-radius: 16px 16px 0px 0px;
+    width: 780px;
+    height: 238px;
+    top: 76px;
+    left: 154px;
+    position: absolute;
+}
+
+.imagem__perfil{
+    box-sizing: border-box;
+    position: absolute;
+    width: 160px;
+    height: 160px;
+    left: 28px;
+    top: 130px;
+    z-index: 1;
+}
+
+/*Dados do usuario*/
+.dados__usuario{
+    position: absolute;
+    background-color: var(--fundo-card-ativo);
+    width: 780px;
+    height: 238px;
+    left: 154px;
+    top: 306px;
+}
+
+.nome__usuario{
+    position: absolute;
+    color: var(--texto-principal);
+    width: 316px;
+    height: 30px;
+    left: 35px;
+    top: 57px;
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.cargo__usuario{
+    position: absolute;
+    color: var(--texto-principal);
+    width: 316px;
+    height: 30px;
+    left: 35px;
+    top: 87px;
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.descricao__usuario{
+    position: absolute;
+    color: var(--texto-principal);
+    width: 347px;
+    height: 30px;
+    left: 35px;
+    top: 109px;
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 30px;
+}
+
+.endereco__usuario{
+    position: absolute;
+    color: var(--texto-principal);
+    width: 347px;
+    height: 30px;
+    left: 35px;
+    top: 128px;
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 30px;
+}
+
+.info__usuario{
+    position: absolute;
+    color: var(--primario);
+    width: 163px;
+    height: 20px;
+    left: 165px;
+    top: 132px;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;  
+}
+
+.seguidores__usuario{
+    position: absolute;
+    color: var(--primario);
+    width: 163px;
+    height: 20px;
+    left: 35px;
+    top: 153px;
+    
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.conexoes__usuario{
+    position: absolute;
+    color: var(--primario);
+    width: 163px;
+    height: 20px;
+    left: 165px;
+    top: 153px;
+    
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.msg__usuario{
+    position: absolute;
+    width: 128px;
+    height: 32px;
+    left: 35px;
+    top: 177px;
+
+    background: var(--primario);
+    border-radius: 16px;
+}
+
+.mais__usuario{
+    box-sizing: border-box;
+    color: var(--primario);
+
+    position: absolute;
+    width: 128px;
+    height: 32px;
+    left: 165px;
+    top: 177px;
+
+    /* transparente */
+
+    background-color: transparent;
+    border: 1px solid var(--primario);
+    border-radius: 16px;
+    cursor: pointer;
+}
+
+.empresa__usuario{
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    left: 586px;
+    top: 76px;
+}
+
+.instituicao__usuario{
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    left: 586px;
+    top: 143px;
+}
+
+.titulo__empresa__usuario{
+    position: absolute;
+    color: var(--texto-secundario);
+    width: 63px;
+    height: 20px;
+    left: 627px;
+    top: 84px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.titulo__inst__usuario{
+    position: absolute;
+    color: var(--texto-secundario);
+    width: 150px;
+    height: 20px;
+    left: 627px;
+    top: 150px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+}
