@@ -10,45 +10,78 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
     <title>Perfil Profissional | #7 Days Code</title>
 </head>
-<header>
-    <div class="fundo__header">
-        <a href="#" class="logo__linkedin">
-            <svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                <title>Linkedin</title>
-                <g id="Icon/Social/linkedin-color" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                    <path d="M20.9716667,33.5527338 L25.001,33.5527338 L25.001,27.1328007 C25.001,25.439485 25.3213333,23.7988354 27.4206667,23.7988354 C29.491,23.7988354 29.517,25.7351486 29.517,27.2404662 L29.517,33.5527338 L33.5506667,33.5527338 L33.5506667,26.4341413 C33.5506667,22.9381777 32.796,20.2505391 28.711,20.2505391 C26.7483333,20.2505391 25.432,21.3265278 24.8943333,22.3471839 L24.839,22.3471839 L24.839,20.5725357 L20.9716667,20.5725357 L20.9716667,33.5527338 Z M16.423,14.1202696 C15.1273333,14.1202696 14.0823333,15.1682587 14.0823333,16.4595785 C14.0823333,17.7508984 15.1273333,18.7992208 16.423,18.7992208 C17.7133333,18.7992208 18.761,17.7508984 18.761,16.4595785 C18.761,15.1682587 17.7133333,14.1202696 16.423,14.1202696 L16.423,14.1202696 Z M14.4026667,33.5527338 L18.4406667,33.5527338 L18.4406667,20.5725357 L14.4026667,20.5725357 L14.4026667,33.5527338 Z M9.76633333,40 C8.79033333,40 8,39.2090082 8,38.2336851 L8,9.76631493 C8,8.79065843 8.79033333,8 9.76633333,8 L38.234,8 C39.2093333,8 40,8.79065843 40,9.76631493 L40,38.2336851 C40,39.2090082 39.2093333,40 38.234,40 L9.76633333,40 Z" id="Shape" fill="#FFFFFF"></path>
-                </g>
-            </svg>
-        </a>
-        <input type="text" class="pesquisa material-symbols-outlined" placeholder="Pesquisar">
-        <nav class="nav__padrao">
-          
+    <section class="navbar">
+        <div class="navbar-busca">
+          <span class="navbar-logo-linkedin"></span>
+          <span class="material-symbols-outlined icon-color navbar-busca-icone">
+            search
+            </span>
+          <input class="navbar-input" placeholder="Pesquisar"></input>
+        </div>
+  
+        <nav>
+          <div class="navbar-item">
+            <span class="material-symbols-outlined icon-color">home</span>
+            <a href="#">Início</a>
+          </div>
+          <div class="navbar-item">
+            <span class="material-symbols-outlined icon-color">group</span>
+            <a href="#">Minha rede</a>
+          </div>
+          <div class="navbar-item">
+            <span class="material-symbols-outlined icon-color">
+              business_center
+              </span>
+            <a href="#">Vagas</a>
+          </div>
+          <div class="navbar-item">
+            <span class="material-symbols-outlined icon-color">
+              sms
+              </span>
+            <a href="#">Mensagens</a>
+          </div>
+          <div class="navbar-item">
+            <span class="material-symbols-outlined icon-color">
+              notifications
+              </span>
+            <a href="#">Notificações</a>
+          </div>
+          <div class="navbar-item">
+            <span class="material-symbols-outlined icon-color">
+              apps
+              </span>
+            <a href="#">Soluções</a>
+          </div>
+  
         </nav>
-
-    </div>
-</header>            
+    </section>
 <body>
 <main>
-    <div class="imagem__fundo">
+    <section class="destaque">
+      <div class="imagem__fundo">
         <img class="imagem__perfil" src="assets/img/profile-img.png" alt="Imagem de perfil">
-    </div>    
-   <section class="dados__usuario">
-        <h2 class="nome__usuario">Vinicius Rodrigues Camargo</h2>
-        <h3 class="cargo__usuario">Desenvolvedor PHP at Freelancer</h3>
-        <p class="descricao__usuario">Apaixonado por devenvolvimento Web, #PHP #JS #HTML #CSS</p>
-        <address class="endereco__usuario">Araçatuba, Brasil - SP - </address>
-        <a href="#" class="info__usuario">Informações do contato</a>
-        <a href="#" class="seguidores__usuario">1000 Seguidores</a>
-        <a href="#" class="conexoes__usuario">900 conexões</a>
-        <button type="button" class="msg__usuario">Mensagem</button>
-        <button type="button" class="mais__usuario">Mais</button>
-        <img class="empresa__usuario" src="assets/img/logocompany.png" alt="Logo da empresa">
-        <p class="titulo__empresa__usuario">Empresa</p>
-        <img class="instituicao__usuario" src="assets/img/highschool.png" alt="Imagem da Instituicao">
-        <p class="titulo__inst__usuario">Instituição de ensino</p>
-   </section> 
+      </div>    
+      <div class="dados__usuario">
+            <h2 class="nome__usuario">Vinicius Rodrigues Camargo</h2>
+            <h3 class="cargo__usuario">Desenvolvedor PHP at Freelancer</h3>
+            <p class="descricao__usuario">Apaixonado por devenvolvimento Web, #PHP #JS #HTML #CSS</p>
+            <address class="endereco__usuario">Araçatuba, Brasil - SP - </address>
+            <a href="#" class="info__usuario">Informações do contato</a>
+            <a href="#" class="seguidores__usuario">1000 Seguidores</a>
+            <a href="#" class="conexoes__usuario">900 conexões</a>
+            <button type="button" class="msg__usuario">Mensagem</button>
+            <button type="button" class="mais__usuario">Mais</button>
+            <img class="empresa__usuario" src="assets/img/logocompany.png" alt="Logo da empresa">
+            <p class="titulo__empresa__usuario">Empresa</p>
+            <img class="instituicao__usuario" src="assets/img/highschool.png" alt="Imagem da Instituicao">
+            <p class="titulo__inst__usuario">Instituição de ensino</p>
+      </div> 
+    </section>
 </main>
 </body>
 </html>
