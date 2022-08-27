@@ -1,0 +1,206 @@
+@import url('./style.css');
+
+.atividades{
+    position: absolute;
+    background-color: var(--fundo-card-ativo);
+    border-radius: 16px 16px 16px 16px;
+    width: 780px;
+    height: 439px;
+    left: 154px;
+    top: 936px;
+}
+
+.seguidores__atividades{
+    position: absolute;
+    color: var(--primario);
+    width: 163px;
+    height: 20px;
+    left: 35px;
+    top: 43px;
+    
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.box__atividades{
+    position: absolute;
+    width: 714px;
+    height: 231px;
+    left: 31px;
+    top: 59px;
+}
+
+.legenda_atividades{
+    position: absolute;
+    color: var(--texto-secundario);
+    width: 347px;
+    height: 30px;
+    left: 0px;
+    top: 25px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 30px;
+}
+
+.img__ativ1{
+    position: absolute;
+    width: 79px;
+    height: 79px;
+    top: 58px;
+}
+
+.texto__atividades{
+    position: absolute;
+    text-align: justify;
+    color: var(--texto-principal);
+    left: 99px;
+    top: 62px;
+}
+
+.elip__ativ1{
+    position: absolute;
+    top: 150px;
+    left: 5px;
+}
+
+.elip__ativ2{
+    position: absolute;
+    top: 150px;
+    left: 12px;
+}
+
+.elip__ativ3{
+    position: absolute;
+    top: 150px;
+    left: 22px;
+}
+
+.contagem__ativ{
+    position: absolute;
+    color: var(--texto-secundario);
+    width: 347px;
+    height: 30px;
+    left: 44px;
+    top: 142px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 30px;  
+}
+
+.comentarios__ativ{
+    position: absolute;
+    color: var(--texto-secundario);
+    width: 347px;
+    height: 30px;
+    left: 612px;
+    top: 142px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 30px;  
+}
+
+.line__ativ{
+    position: absolute;
+    color: var(--texto-principal);
+    width: 711px;
+    top: 165px;
+}
+
+.box__atividades2{
+    position: absolute;
+    width: 714px;
+    height: 231px;
+    left: 31px;
+    top: 213px;
+}
+
+.legenda_atividades2{
+    position: absolute;
+    color: var(--texto-secundario);
+    width: 347px;
+    height: 30px;
+    left: 0px;
+    top: 25px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 30px;
+}
+
+.img__ativ2{
+    position: absolute;
+    width: 79px;
+    height: 79px;
+    top: 58px;
+}
+
+.texto__atividades2{
+    position: absolute;
+    text-align: justify;
+    color: var(--texto-principal);
+    left: 99px;
+    top: 62px;
+}
+
+.elip__ativ21{
+    position: absolute;
+    top: 150px;
+    left: 5px;
+}
+
+.elip__ativ22{
+    position: absolute;
+    top: 150px;
+    left: 12px;
+}
+
+.elip__ativ23{
+    position: absolute;
+    top: 150px;
+    left: 22px;
+}
+
+.contagem__ativ2{
+    position: absolute;
+    color: var(--texto-secundario);
+    width: 347px;
+    height: 30px;
+    left: 44px;
+    top: 142px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 30px;  
+}
+
+.comentarios__ativ2{
+    position: absolute;
+    color: var(--texto-secundario);
+    width: 347px;
+    height: 30px;
+    left: 612px;
+    top: 142px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 30px;  
+}
+
+.line__ativ2{
+    position: absolute;
+    color: var(--texto-principal);
+    width: 711px;
+    top: 165px;
+}
+
+.rodape__ativ{
+    position: absolute;
+    color: var(--texto-secundario);
+    left: 256px;
+    top: 188px;
+}
