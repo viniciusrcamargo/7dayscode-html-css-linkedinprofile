@@ -1,0 +1,11 @@
+@import url('./style.css');
+
+.experiencias{
+    position: absolute;
+    background-color: var(--fundo-card-ativo);
+    border-radius: 16px 16px 16px 16px;
+    width: 780px;
+    height: 150px;
+    left: 154px;
+    top: 1553px;
+}

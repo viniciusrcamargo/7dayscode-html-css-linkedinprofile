@@ -1,0 +1,20 @@
+@import url('./style.css');
+
+.sobre{
+    position: absolute;
+    background-color: var(--fundo-card-ativo);
+    border-radius: 16px 16px 16px 16px;
+    width: 780px;
+    height: 150px;
+    left: 154px;
+    top: 1389px;
+}
+
+.sobre__texto{
+    position: absolute;
+    text-align: justify;
+    width: 703px;
+    color: var(--texto-principal);
+    left: 35px;
+    top: 62px;
+}
