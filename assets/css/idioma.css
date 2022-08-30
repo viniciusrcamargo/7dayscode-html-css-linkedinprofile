@@ -1,0 +1,63 @@
+@import url('./style.css');
+
+.idioma{
+    position: absolute;
+    background-color: var(--fundo-card-ativo);
+    border-radius: 16px 16px 16px 16px;
+    width: 780px;
+    height: 175px;
+    left: 154px;
+    top: 2115px;
+}
+
+.idioma__titulo{
+    position: absolute;
+    color: var(--texto-principal);
+    width: 316px;
+    height: 30px;
+    left: 35px;
+    top: 13px;
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.sub__idioma{
+    position: absolute;
+    color: var(--texto-principal);
+    left: 35px;
+    top: 55px;
+    font-weight: bold;
+}
+
+.desc__idioma{
+    position: absolute;
+    color: var(--texto-secundario);
+    left: 35px;
+    top: 77px;
+}
+
+.sub__idioma2{
+    position: absolute;
+    color: var(--texto-principal);
+    left: 35px;
+    top: 111px;
+    font-weight: bold;
+}
+
+.desc__idioma2{
+    position: absolute;
+    color: var(--texto-secundario);
+    left: 35px;
+    top: 135px;
+}
+
+.line__idioma{
+    position: absolute;
+    color: var(--texto-principal);
+    width: 711px;
+    left: 35px;
+    top: 95px;
+}

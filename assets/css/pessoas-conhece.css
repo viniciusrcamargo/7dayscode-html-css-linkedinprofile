@@ -1,0 +1,275 @@
+@import url('./style.css');
+
+.pessoras__conhece{
+    position: absolute;
+    background-color: var(--fundo-card-ativo);
+    border-radius: 16px 16px 16px 16px;
+    width: 368px;
+    height: 535px;
+    left: 955px;
+    top: 619px;
+}
+
+.pessoas__titulo{
+    position: absolute;
+    color: var(--texto-principal);
+    width: 316px;
+    height: 30px;
+    left: 17px;
+    top: 13px;
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.lista__pessoas{
+    position: absolute;
+    top: 55px;
+    left: 18px;
+}
+
+.lt__user{
+    position: absolute;
+    top: 2px;
+    left: 55px;
+    color: var(--texto-principal);
+    width: 150px;
+    font-weight: bold;
+}
+
+.lt__cargo{
+    position: absolute;
+    top: 20px;
+    left: 55px;
+    color: var(--texto-secundario);
+    font-size: 12px;
+    width: 150px;
+}
+
+.lt__company{
+    position: absolute;
+    top: 36px;
+    left: 55px;
+    color: var(--texto-secundario);
+    font-size: 12px;
+    width: 150px;
+}
+
+.botao__pes1{
+    box-sizing: border-box;
+    color: var(--texto-principal);
+
+    position: absolute;
+    width: 140px;
+    height: 28px;
+    left: 53px;
+    top: 55px;
+
+    /* transparente */
+    background-color: transparent;
+    border: 1px solid var(--texto-principal);
+    border-radius: 16px;
+    cursor: pointer;
+}
+
+.lista__pessoas2{
+    position: absolute;
+    top: 151px;
+    left: 19px;
+}
+
+.lt__user2{
+    position: absolute;
+    top: 2px;
+    left: 55px;
+    color: var(--texto-principal);
+    width: 150px;
+    font-weight: bold;
+}
+
+.lt__cargo2{
+    position: absolute;
+    top: 20px;
+    left: 55px;
+    color: var(--texto-secundario);
+    font-size: 12px;
+    width: 150px;
+}
+
+.lt__company2{
+    position: absolute;
+    top: 36px;
+    left: 55px;
+    color: var(--texto-secundario);
+    font-size: 12px;
+    width: 150px;
+}
+
+.botao__pes2{
+    box-sizing: border-box;
+    color: var(--texto-principal);
+
+    position: absolute;
+    width: 140px;
+    height: 28px;
+    left: 53px;
+    top: 55px;
+
+    /* transparente */
+    background-color: transparent;
+    border: 1px solid var(--texto-principal);
+    border-radius: 16px;
+    cursor: pointer;
+}
+
+.lista__pessoas3{
+    position: absolute;
+    top: 245px;
+    left: 19px;
+}
+
+.lt__user3{
+    position: absolute;
+    top: 2px;
+    left: 55px;
+    color: var(--texto-principal);
+    width: 150px;
+    font-weight: bold;
+}
+
+.lt__cargo3{
+    position: absolute;
+    top: 20px;
+    left: 55px;
+    color: var(--texto-secundario);
+    font-size: 12px;
+    width: 150px;
+}
+
+.lt__company3{
+    position: absolute;
+    top: 36px;
+    left: 55px;
+    color: var(--texto-secundario);
+    font-size: 12px;
+    width: 150px;
+}
+
+.botao__pes3{
+    box-sizing: border-box;
+    color: var(--texto-principal);
+
+    position: absolute;
+    width: 140px;
+    height: 28px;
+    left: 53px;
+    top: 55px;
+
+    /* transparente */
+    background-color: transparent;
+    border: 1px solid var(--texto-principal);
+    border-radius: 16px;
+    cursor: pointer;
+}
+
+.lista__pessoas4{
+    position: absolute;
+    top: 338px;
+    left: 19px;
+}
+
+.lt__user4{
+    position: absolute;
+    top: 2px;
+    left: 55px;
+    color: var(--texto-principal);
+    width: 150px;
+    font-weight: bold;
+}
+
+.lt__cargo4{
+    position: absolute;
+    top: 20px;
+    left: 55px;
+    color: var(--texto-secundario);
+    font-size: 12px;
+    width: 150px;
+}
+
+.lt__company4{
+    position: absolute;
+    top: 36px;
+    left: 55px;
+    color: var(--texto-secundario);
+    font-size: 12px;
+    width: 150px;
+}
+
+.botao__pes4{
+    box-sizing: border-box;
+    color: var(--texto-principal);
+
+    position: absolute;
+    width: 140px;
+    height: 28px;
+    left: 53px;
+    top: 55px;
+
+    /* transparente */
+    background-color: transparent;
+    border: 1px solid var(--texto-principal);
+    border-radius: 16px;
+    cursor: pointer;
+}
+
+.lista__pessoas5{
+    position: absolute;
+    top: 431px;
+    left: 19px;
+}
+
+.lt__user5{
+    position: absolute;
+    top: 2px;
+    left: 55px;
+    color: var(--texto-principal);
+    width: 150px;
+    font-weight: bold;
+}
+
+.lt__cargo5{
+    position: absolute;
+    top: 20px;
+    left: 55px;
+    color: var(--texto-secundario);
+    font-size: 12px;
+    width: 150px;
+}
+
+.lt__company5{
+    position: absolute;
+    top: 36px;
+    left: 55px;
+    color: var(--texto-secundario);
+    font-size: 12px;
+    width: 150px;
+}
+
+.botao__pes5{
+    box-sizing: border-box;
+    color: var(--texto-principal);
+
+    position: absolute;
+    width: 140px;
+    height: 28px;
+    left: 53px;
+    top: 55px;
+
+    /* transparente */
+    background-color: transparent;
+    border: 1px solid var(--texto-principal);
+    border-radius: 16px;
+    cursor: pointer;
+}

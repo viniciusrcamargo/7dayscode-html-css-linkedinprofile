@@ -1,0 +1,48 @@
+@import url('./style.css');
+
+.formacao{
+    position: absolute;
+    background-color: var(--fundo-card-ativo);
+    border-radius: 16px 16px 16px 16px;
+    width: 780px;
+    height: 126px;
+    left: 154px;
+    top: 1974px;
+}
+
+.titulo__formacao{
+    position: absolute;
+    color: var(--texto-principal);
+    width: 316px;
+    height: 30px;
+    left: 35px;
+    top: 13px;
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.img__formacao{
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    left: 36px;
+    top: 50px;
+}
+
+.sub__formacao{
+    position: absolute;
+    color: var(--texto-principal);
+    left: 96px;
+    top: 55px;
+    font-weight: bold;
+}
+
+.ano__formacao{
+    position: absolute;
+    color: var(--texto-secundario);
+    left: 96px;
+    top: 77px;
+}
